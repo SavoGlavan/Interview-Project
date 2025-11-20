@@ -20,7 +20,11 @@ Backend/api/.vs/
 Backend/api/appsettings.Development.json
 Backend/api/.vscode/
 
+# Tests build artifacts
+Backend/api.Tests/bin/
+Backend/api.Tests/obj/
 # ----------------------
+
 # Docker
 # ----------------------
 *.env
