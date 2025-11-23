@@ -217,6 +217,16 @@ docker-compose down
 
 This stops and removes the containers but keeps the persisted database volume.
 
+### 🔐 Default Login Credentials
+
+After running the application with Docker, you can log in using the following demo accounts:
+
+| Role | Username | Password |
+|------|-----------|-----------|
+| Admin | admin | admin123|
+| User  | jojo  | pass123|
+These accounts are preloaded from the `backup.sql` file and can be used immediately.
+
 ## ⚙️ Local Development (without Docker)
 
 You can run the backend and frontend locally without Docker. This is useful for development or debugging.
@@ -261,6 +271,8 @@ Frontend will run on http://localhost:5173 and communicate with the local backen
 - EF Core migrations must be applied for the database
 - Frontend service URLs must point to your local backend port
 - Backend and frontend are run separately
+
+These accounts are preloaded from the `backup.sql` file and can be used immediately.
 
 ## 🧩 Troubleshooting
 
